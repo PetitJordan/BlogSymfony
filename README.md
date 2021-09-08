@@ -1,5 +1,9 @@
 # BlogSymfony
 
+Blog dans lequel on peut visualiser plusieurs ou un article, en créer ou en modifier un. Ces articles ont été générées grâce à la librairie faker dans une fixture appropriée.
+Fonctionnalités de connexion et deconnexion. On peut également créer un commentaire sur l'article de son choix si on est connecté à l'application. Toutes les données sont stockées en BDD MySQL.
+
+
 ## Installer les modules
 ```
 composer require symfony/webpack-encore-bundle
@@ -21,7 +25,6 @@ le projet devrait fonctionner et être accessible à l'adresse :
 
 ## URL de nos fonctionnalités
 ```
-
 # Article 
 127.0.0.1:8000/blog
 127.0.0.1:8000/blog/{id}
